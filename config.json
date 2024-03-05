@@ -1,0 +1,9 @@
+{
+  "Token": "TOKEN HERE",
+  "ClientID": "CLIENT ID HERE",
+
+  "BotAuthor": "YOUR NAME HERE",
+  "BotVersion": "BOT VERSION HERE",
+
+  "MongoUrl": "DB URL HERE"
+}
