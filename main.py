@@ -18,10 +18,6 @@ async def setup_hook():
     for filename in os.listdir('./cogs/commands'):
         if filename.endswith('.py'):
             await client.load_extension(f'cogs.commands.{filename[:-3]}')
-    # LOAD UTILS COGS
-    for filename in os.listdir('./cogs/utils'):
-        if filename.endswith('.py'):
-            await client.load_extension(f'cogs.utils.{filename[:-3]}')
 
 async def main():
     await setup_hook()
